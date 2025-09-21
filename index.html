@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc Ngủ Ngon Lớp 8/2</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="stars" id="stars"></div>
+    <div class="moon"></div>
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+    <div class="cloud cloud-3"></div>
+    
+    <div class="container">
+        <h1 class="title">Chúc Ngủ Ngon <span class="heart">❤️</span></h1>
+        
+        <div class="class-name">LỚP 8/2</div>
+        
+        <div class="message">
+            <p id="typing-demo" class="typing-text"></p>
+            
+            <p class="message-text fade-in"><i class="fas fa-quote-left"></i> Chúc cả lớp 8/2 chúng mình một đêm ngủ thật ngon và những giấc mơ đẹp. Dù hôm nay có mệt mỏi với bài vở, hãy tạm gác lại và thư giãn nhé! <i class="fas fa-quote-right"></i></p>
+            
+            <p class="message-text slide-in"><i class="fas fa-quote-left"></i> Ngày mai lại là một ngày mới, đầy năng lượng để học tập, vui chơi và gắn kết cùng nhau. Lớp 8/2 muôn năm! <i class="fas fa-quote-right"></i></p>
+            
+            <p class="message-text scale-in"><i class="fas fa-quote-left"></i> Nhớ ngủ sớm để mai còn khoẻ đi học, đừng thức khuya lướt mạng xã hội nữa nhé! Chúc các bạn ngủ ngon! <i class="fas fa-quote-right"></i></p>
+            
+            <div class="students" id="students">
+                <!-- Students will be added by JavaScript -->
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p class="fade-in-up">From: Your Classmate <span class="heart">❤️</span></p>
+        </div>
+
+        <div class="controls">
+            <button id="play-btn" class="control-btn"><i class="fas fa-play"></i></button>
+            <button id="pause-btn" class="control-btn"><i class="fas fa-pause"></i></button>
+            <button id="reset-btn" class="control-btn"><i class="fas fa-redo"></i></button>
+        </div>
+    </div>
+
+    <audio id="bg-music" loop>
+        <source src="https://cdn.pixabay.com/download/audio/2022/01/20/audio_dc39bbc811.mp3?filename=soft-sleepy-piano-125571.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
